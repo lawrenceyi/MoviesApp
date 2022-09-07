@@ -1,0 +1,42 @@
+$movieBackgroundColor: gray;
+$movieTextColor: white;
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#movies-container {
+    margin: 10px;
+}
+
+.movie-item {
+    background-color: $movieBackgroundColor;
+    border-radius: 10px;
+    color: $movieTextColor;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-field {
+    margin: 5px 0px;
+}
+
+.error {
+    color: red;
+}
+
+#loading {
+    color: white;
+    padding: 10px;
+    background-color: blue;
+}
